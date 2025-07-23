@@ -1,0 +1,32 @@
+header {
+  gtfs_realtime_version: "2.0"
+  incrementality: FULL_DATASET
+  timestamp: 1751464669
+}
+entity {
+  id: "alert_001"
+  alert {
+    active_period {
+      start: 1751464669
+      end: 1751471869
+    }
+    informed_entity {
+      route_id: "route_A"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Service Disruption"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route A is experiencing delays due to construction work."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}

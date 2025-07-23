@@ -1,0 +1,679 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1746118800
+}
+entity {
+  id: "alert_100496_732258788_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100496"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100496 is running approximately 5 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100104_694279128_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100104"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100104 is running approximately 6 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100089_491929308_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100089"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Detour in Effect"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "This trip is on detour due to road construction. Please check for alternate stops."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100003_694513858_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100003"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100003 is running approximately 9 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100214_694306528_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100214"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100214 is running approximately 9 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100252_721368038_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100252"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100252 is running approximately 9 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100229_571900708_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100229"
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Service Running Early"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100229 is running approximately 8 minutes ahead of schedule."
+        language: "en"
+      }
+    }
+    severity_level: INFO
+  }
+}
+entity {
+  id: "alert_100512_721494858_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100512"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100512 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100225_657914318_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100225"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100225 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100024_685929998_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100024"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100024 is running approximately 5 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100031_721371938_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100031"
+    }
+    cause: CONSTRUCTION
+    effect: DETOUR
+    header_text {
+      translation {
+        text: "Detour in Effect"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "This trip is on detour due to road construction. Please check for alternate stops."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100136_736532468_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746205200
+    }
+    informed_entity {
+      route_id: "100136"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Major Service Disruption"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "This route is experiencing a long-term disruption due to construction. No service is available for the next 24 hours."
+        language: "en"
+      }
+    }
+    severity_level: SEVERE
+  }
+}
+entity {
+  id: "alert_100239_597756328_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100239"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100239 is running approximately 5 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100263_650129768_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100263"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100263 is running approximately 6 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_102705_664298478_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746205200
+    }
+    informed_entity {
+      route_id: "102705"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Major Service Disruption"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "This route is experiencing a long-term disruption due to construction. No service is available for the next 24 hours."
+        language: "en"
+      }
+    }
+    severity_level: SEVERE
+  }
+}
+entity {
+  id: "alert_100001_562519018_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746205200
+    }
+    informed_entity {
+      route_id: "100001"
+    }
+    cause: CONSTRUCTION
+    effect: NO_SERVICE
+    header_text {
+      translation {
+        text: "Major Service Disruption"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "This route is experiencing a long-term disruption due to construction. No service is available for the next 24 hours."
+        language: "en"
+      }
+    }
+    severity_level: SEVERE
+  }
+}
+entity {
+  id: "alert_102615_585676308_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "102615"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 102615 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100236_648500738_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100236"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100236 is running approximately 9 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_102718_664464618_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "102718"
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Service Running Early"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 102718 is running approximately 5 minutes ahead of schedule."
+        language: "en"
+      }
+    }
+    severity_level: INFO
+  }
+}
+entity {
+  id: "alert_102561_558305968_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "102561"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 102561 is running approximately 6 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100136_736532568_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100136"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100136 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100225_583678228_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100225"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100225 is running approximately 9 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_102552_609009348_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "102552"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 102552 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100004_635436318_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100004"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100004 is running approximately 7 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}
+entity {
+  id: "alert_100239_597754128_1746118800"
+  alert {
+    active_period {
+      start: 1746118800
+      end: 1746126000
+    }
+    informed_entity {
+      route_id: "100239"
+    }
+    cause: OTHER_CAUSE
+    effect: OTHER_EFFECT
+    header_text {
+      translation {
+        text: "Service Running Early"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100239 is running approximately 9 minutes ahead of schedule."
+        language: "en"
+      }
+    }
+    severity_level: INFO
+  }
+}

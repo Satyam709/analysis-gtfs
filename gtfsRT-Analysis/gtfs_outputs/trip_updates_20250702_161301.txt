@@ -1,0 +1,1984 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1751452982
+}
+entity {
+  id: "1_650130628_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "650130628"
+      schedule_relationship: SCHEDULED
+      route_id: "100263"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453400
+      }
+      departure {
+        time: 1751453400
+      }
+      stop_id: "31137"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453418
+      }
+      departure {
+        time: 1751453418
+      }
+      stop_id: "31136"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453449
+      }
+      departure {
+        time: 1751453449
+      }
+      stop_id: "30122"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453477
+      }
+      departure {
+        time: 1751453477
+      }
+      stop_id: "8050"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453513
+      }
+      departure {
+        time: 1751453513
+      }
+      stop_id: "8070"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453544
+      }
+      departure {
+        time: 1751453544
+      }
+      stop_id: "8080"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453562
+      }
+      departure {
+        time: 1751453562
+      }
+      stop_id: "8090"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453599
+      }
+      departure {
+        time: 1751453599
+      }
+      stop_id: "8100"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453640
+      }
+      departure {
+        time: 1751453640
+      }
+      stop_id: "8110"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453687
+      }
+      departure {
+        time: 1751453687
+      }
+      stop_id: "8140"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453723
+      }
+      departure {
+        time: 1751453723
+      }
+      stop_id: "8160"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453751
+      }
+      departure {
+        time: 1751453751
+      }
+      stop_id: "8175"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453781
+      }
+      departure {
+        time: 1751453781
+      }
+      stop_id: "8190"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453820
+      }
+      departure {
+        time: 1751453820
+      }
+      stop_id: "8210"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453860
+      }
+      departure {
+        time: 1751453860
+      }
+      stop_id: "8231"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453886
+      }
+      departure {
+        time: 1751453886
+      }
+      stop_id: "8250"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453915
+      }
+      departure {
+        time: 1751453915
+      }
+      stop_id: "8270"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453958
+      }
+      departure {
+        time: 1751453958
+      }
+      stop_id: "8285"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453992
+      }
+      departure {
+        time: 1751453992
+      }
+      stop_id: "8300"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454021
+      }
+      departure {
+        time: 1751454021
+      }
+      stop_id: "8310"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454060
+      }
+      departure {
+        time: 1751454060
+      }
+      stop_id: "8330"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454124
+      }
+      departure {
+        time: 1751454124
+      }
+      stop_id: "8350"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454161
+      }
+      departure {
+        time: 1751454161
+      }
+      stop_id: "8360"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454214
+      }
+      departure {
+        time: 1751454214
+      }
+      stop_id: "8380"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454269
+      }
+      departure {
+        time: 1751454269
+      }
+      stop_id: "8400"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454300
+      }
+      departure {
+        time: 1751454300
+      }
+      stop_id: "8401"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454365
+      }
+      departure {
+        time: 1751454365
+      }
+      stop_id: "8429"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454413
+      }
+      departure {
+        time: 1751454413
+      }
+      stop_id: "8440"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454445
+      }
+      departure {
+        time: 1751454445
+      }
+      stop_id: "8450"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454465
+      }
+      departure {
+        time: 1751454465
+      }
+      stop_id: "8460"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454510
+      }
+      departure {
+        time: 1751454510
+      }
+      stop_id: "8485"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454598
+      }
+      departure {
+        time: 1751454598
+      }
+      stop_id: "8494"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454627
+      }
+      departure {
+        time: 1751454627
+      }
+      stop_id: "8510"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454693
+      }
+      departure {
+        time: 1751454693
+      }
+      stop_id: "8530"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454720
+      }
+      departure {
+        time: 1751454720
+      }
+      stop_id: "3600"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454772
+      }
+      departure {
+        time: 1751454772
+      }
+      stop_id: "1500"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454807
+      }
+      departure {
+        time: 1751454807
+      }
+      stop_id: "1510"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454840
+      }
+      departure {
+        time: 1751454840
+      }
+      stop_id: "1530"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454928
+      }
+      departure {
+        time: 1751454928
+      }
+      stop_id: "1610"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455015
+      }
+      departure {
+        time: 1751455015
+      }
+      stop_id: "538"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455113
+      }
+      departure {
+        time: 1751455113
+      }
+      stop_id: "558"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455200
+      }
+      departure {
+        time: 1751455200
+      }
+      stop_id: "575"
+    }
+    vehicle {
+      id: "4517"
+    }
+    timestamp: 1751452810
+    delay: 0
+  }
+}
+entity {
+  id: "1_675347248_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "675347248"
+      schedule_relationship: SCHEDULED
+      route_id: "100219"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452702
+      }
+      departure {
+        time: 1751452702
+      }
+      stop_id: "558"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452813
+      }
+      departure {
+        time: 1751452813
+      }
+      stop_id: "575"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452873
+      }
+      departure {
+        time: 1751452873
+      }
+      stop_id: "600"
+    }
+    vehicle {
+      id: "4317"
+    }
+    timestamp: 1751452860
+    delay: 253
+  }
+}
+entity {
+  id: "1_630541318_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "630541318"
+      schedule_relationship: SCHEDULED
+      route_id: "100210"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452645
+      }
+      departure {
+        time: 1751452645
+      }
+      stop_id: "3881"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452704
+      }
+      departure {
+        time: 1751452704
+      }
+      stop_id: "3883"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452765
+      }
+      departure {
+        time: 1751452765
+      }
+      stop_id: "30855"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452801
+      }
+      departure {
+        time: 1751452801
+      }
+      stop_id: "30870"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452846
+      }
+      departure {
+        time: 1751452846
+      }
+      stop_id: "30890"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452880
+      }
+      departure {
+        time: 1751452880
+      }
+      stop_id: "30910"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452918
+      }
+      departure {
+        time: 1751452918
+      }
+      stop_id: "30930"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452980
+      }
+      departure {
+        time: 1751452980
+      }
+      stop_id: "30950"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453026
+      }
+      departure {
+        time: 1751453026
+      }
+      stop_id: "30960"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453064
+      }
+      departure {
+        time: 1751453064
+      }
+      stop_id: "46092"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453131
+      }
+      departure {
+        time: 1751453131
+      }
+      stop_id: "46101"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453218
+      }
+      departure {
+        time: 1751453218
+      }
+      stop_id: "46110"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453304
+      }
+      departure {
+        time: 1751453304
+      }
+      stop_id: "45649"
+    }
+    vehicle {
+      id: "4331"
+    }
+    timestamp: 1751452899
+    delay: 204
+  }
+}
+entity {
+  id: "1_664222758_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "664222758"
+      schedule_relationship: SCHEDULED
+      route_id: "102581"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453520
+      }
+      departure {
+        time: 1751453520
+      }
+      stop_id: "28680"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453661
+      }
+      departure {
+        time: 1751453661
+      }
+      stop_id: "40049"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453700
+      }
+      departure {
+        time: 1751453700
+      }
+      stop_id: "13600"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453744
+      }
+      departure {
+        time: 1751453744
+      }
+      stop_id: "13620"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453781
+      }
+      departure {
+        time: 1751453781
+      }
+      stop_id: "13640"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453827
+      }
+      departure {
+        time: 1751453827
+      }
+      stop_id: "13660"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453858
+      }
+      departure {
+        time: 1751453858
+      }
+      stop_id: "13670"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453900
+      }
+      departure {
+        time: 1751453900
+      }
+      stop_id: "13700"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453940
+      }
+      departure {
+        time: 1751453940
+      }
+      stop_id: "13721"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454018
+      }
+      departure {
+        time: 1751454018
+      }
+      stop_id: "13760"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454149
+      }
+      departure {
+        time: 1751454149
+      }
+      stop_id: "13770"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454222
+      }
+      departure {
+        time: 1751454222
+      }
+      stop_id: "13800"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454266
+      }
+      departure {
+        time: 1751454266
+      }
+      stop_id: "13810"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454329
+      }
+      departure {
+        time: 1751454329
+      }
+      stop_id: "13830"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454368
+      }
+      departure {
+        time: 1751454368
+      }
+      stop_id: "13840"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454443
+      }
+      departure {
+        time: 1751454443
+      }
+      stop_id: "13870"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454491
+      }
+      departure {
+        time: 1751454491
+      }
+      stop_id: "13890"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454615
+      }
+      departure {
+        time: 1751454615
+      }
+      stop_id: "13910"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454660
+      }
+      departure {
+        time: 1751454660
+      }
+      stop_id: "2672"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454779
+      }
+      departure {
+        time: 1751454779
+      }
+      stop_id: "2200"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454952
+      }
+      departure {
+        time: 1751454952
+      }
+      stop_id: "2220"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455045
+      }
+      departure {
+        time: 1751455045
+      }
+      stop_id: "400"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455115
+      }
+      departure {
+        time: 1751455115
+      }
+      stop_id: "420"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455200
+      }
+      departure {
+        time: 1751455200
+      }
+      stop_id: "431"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455313
+      }
+      departure {
+        time: 1751455313
+      }
+      stop_id: "468"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455410
+      }
+      departure {
+        time: 1751455410
+      }
+      stop_id: "490"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455519
+      }
+      departure {
+        time: 1751455519
+      }
+      stop_id: "515"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751455800
+      }
+      departure {
+        time: 1751455800
+      }
+      stop_id: "99271"
+    }
+    vehicle {
+      id: "6114"
+    }
+    timestamp: 1751452871
+    delay: 0
+  }
+}
+entity {
+  id: "1_724955568_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "724955568"
+      schedule_relationship: SCHEDULED
+      route_id: "100259"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452520
+      }
+      departure {
+        time: 1751452520
+      }
+      stop_id: "82185"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452552
+      }
+      departure {
+        time: 1751452552
+      }
+      stop_id: "82187"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452582
+      }
+      departure {
+        time: 1751452582
+      }
+      stop_id: "82195"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452622
+      }
+      departure {
+        time: 1751452622
+      }
+      stop_id: "82197"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452645
+      }
+      departure {
+        time: 1751452645
+      }
+      stop_id: "82198"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452708
+      }
+      departure {
+        time: 1751452708
+      }
+      stop_id: "23230"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452738
+      }
+      departure {
+        time: 1751452738
+      }
+      stop_id: "23250"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452799
+      }
+      departure {
+        time: 1751452799
+      }
+      stop_id: "23260"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452834
+      }
+      departure {
+        time: 1751452834
+      }
+      stop_id: "23273"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452908
+      }
+      departure {
+        time: 1751452908
+      }
+      stop_id: "35317"
+    }
+    vehicle {
+      id: "8129"
+    }
+    timestamp: 1751452903
+    delay: -132
+  }
+}
+entity {
+  id: "1_635446028_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "635446028"
+      schedule_relationship: SCHEDULED
+      route_id: "102719"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452670
+      }
+      departure {
+        time: 1751452670
+      }
+      stop_id: "58081"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452700
+      }
+      departure {
+        time: 1751452700
+      }
+      stop_id: "58082"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452751
+      }
+      departure {
+        time: 1751452751
+      }
+      stop_id: "58083"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452789
+      }
+      departure {
+        time: 1751452789
+      }
+      stop_id: "58138"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452833
+      }
+      departure {
+        time: 1751452833
+      }
+      stop_id: "58080"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452872
+      }
+      departure {
+        time: 1751452872
+      }
+      stop_id: "58084"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452906
+      }
+      departure {
+        time: 1751452906
+      }
+      stop_id: "58040"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452964
+      }
+      departure {
+        time: 1751452964
+      }
+      stop_id: "58050"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453018
+      }
+      departure {
+        time: 1751453018
+      }
+      stop_id: "58060"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453232
+      }
+      departure {
+        time: 1751453232
+      }
+      stop_id: "52636"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453259
+      }
+      departure {
+        time: 1751453259
+      }
+      stop_id: "52637"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453300
+      }
+      departure {
+        time: 1751453300
+      }
+      stop_id: "52638"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453347
+      }
+      departure {
+        time: 1751453347
+      }
+      stop_id: "52639"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453409
+      }
+      departure {
+        time: 1751453409
+      }
+      stop_id: "60880"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453496
+      }
+      departure {
+        time: 1751453496
+      }
+      stop_id: "60890"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453532
+      }
+      departure {
+        time: 1751453532
+      }
+      stop_id: "60900"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453664
+      }
+      departure {
+        time: 1751453664
+      }
+      stop_id: "80121"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453745
+      }
+      departure {
+        time: 1751453745
+      }
+      stop_id: "80123"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453798
+      }
+      departure {
+        time: 1751453798
+      }
+      stop_id: "80124"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453845
+      }
+      departure {
+        time: 1751453845
+      }
+      stop_id: "80150"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454042
+      }
+      departure {
+        time: 1751454042
+      }
+      stop_id: "49290"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454090
+      }
+      departure {
+        time: 1751454090
+      }
+      stop_id: "49301"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454130
+      }
+      departure {
+        time: 1751454130
+      }
+      stop_id: "47646"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454167
+      }
+      departure {
+        time: 1751454167
+      }
+      stop_id: "53720"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454203
+      }
+      departure {
+        time: 1751454203
+      }
+      stop_id: "53740"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454252
+      }
+      departure {
+        time: 1751454252
+      }
+      stop_id: "52301"
+    }
+    vehicle {
+      id: "8135"
+    }
+    timestamp: 1751452911
+    delay: 132
+  }
+}
+entity {
+  id: "1_736436808_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "736436808"
+      schedule_relationship: SCHEDULED
+      route_id: "102745"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452690
+      }
+      departure {
+        time: 1751452690
+      }
+      stop_id: "105"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452810
+      }
+      departure {
+        time: 1751452810
+      }
+      stop_id: "106"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452921
+      }
+      departure {
+        time: 1751452921
+      }
+      stop_id: "107"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453025
+      }
+      departure {
+        time: 1751453025
+      }
+      stop_id: "108"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453102
+      }
+      departure {
+        time: 1751453102
+      }
+      stop_id: "109"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453170
+      }
+      departure {
+        time: 1751453170
+      }
+      stop_id: "111"
+    }
+    vehicle {
+      id: "6405"
+    }
+    timestamp: 1751452906
+    delay: 70
+  }
+}
+entity {
+  id: "1_694227178_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "694227178"
+      schedule_relationship: SCHEDULED
+      route_id: "102615"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452658
+      }
+      departure {
+        time: 1751452658
+      }
+      stop_id: "75890"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452710
+      }
+      departure {
+        time: 1751452710
+      }
+      stop_id: "75901"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452770
+      }
+      departure {
+        time: 1751452770
+      }
+      stop_id: "75910"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452851
+      }
+      departure {
+        time: 1751452851
+      }
+      stop_id: "75932"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452971
+      }
+      departure {
+        time: 1751452971
+      }
+      stop_id: "16103"
+    }
+    vehicle {
+      id: "6205"
+    }
+    timestamp: 1751452912
+    delay: 411
+  }
+}
+entity {
+  id: "1_628191378_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "628191378"
+      schedule_relationship: SCHEDULED
+      route_id: "102615"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452685
+      }
+      departure {
+        time: 1751452685
+      }
+      stop_id: "468"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452796
+      }
+      departure {
+        time: 1751452796
+      }
+      stop_id: "490"
+    }
+    stop_time_update {
+      stop_id: "510"
+    }
+    vehicle {
+      id: "6217"
+    }
+    timestamp: 1751452913
+    delay: 954
+  }
+}
+entity {
+  id: "1_692091168_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "692091168"
+      schedule_relationship: SCHEDULED
+      route_id: "102576"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452542
+      }
+      departure {
+        time: 1751452542
+      }
+      stop_id: "20250"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452589
+      }
+      departure {
+        time: 1751452589
+      }
+      stop_id: "20270"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452642
+      }
+      departure {
+        time: 1751452642
+      }
+      stop_id: "32030"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452782
+      }
+      departure {
+        time: 1751452782
+      }
+      stop_id: "22553"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452842
+      }
+      departure {
+        time: 1751452842
+      }
+      stop_id: "22557"
+    }
+    vehicle {
+      id: "6220"
+    }
+    timestamp: 1751452791
+    delay: 42
+  }
+}
+entity {
+  id: "1_724576988_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "724576988"
+      schedule_relationship: SCHEDULED
+      route_id: "100264"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452699
+      }
+      departure {
+        time: 1751452699
+      }
+      stop_id: "9150"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452813
+      }
+      departure {
+        time: 1751452813
+      }
+      stop_id: "9190"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452899
+      }
+      departure {
+        time: 1751452899
+      }
+      stop_id: "9220"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453020
+      }
+      departure {
+        time: 1751453020
+      }
+      stop_id: "10170"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453056
+      }
+      departure {
+        time: 1751453056
+      }
+      stop_id: "10180"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453083
+      }
+      departure {
+        time: 1751453083
+      }
+      stop_id: "10190"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453144
+      }
+      departure {
+        time: 1751453144
+      }
+      stop_id: "10210"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453192
+      }
+      departure {
+        time: 1751453192
+      }
+      stop_id: "10225"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453306
+      }
+      departure {
+        time: 1751453306
+      }
+      stop_id: "10240"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453400
+      }
+      departure {
+        time: 1751453400
+      }
+      stop_id: "940"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453459
+      }
+      departure {
+        time: 1751453459
+      }
+      stop_id: "950"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453621
+      }
+      departure {
+        time: 1751453621
+      }
+      stop_id: "430"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453732
+      }
+      departure {
+        time: 1751453732
+      }
+      stop_id: "450"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453871
+      }
+      departure {
+        time: 1751453871
+      }
+      stop_id: "480"
+    }
+    stop_time_update {
+      stop_id: "500"
+    }
+    stop_time_update {
+      stop_id: "515"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454152
+      }
+      departure {
+        time: 1751454152
+      }
+      stop_id: "1471"
+    }
+    vehicle {
+      id: "8202"
+    }
+    timestamp: 1751452903
+    delay: 272
+  }
+}
+entity {
+  id: "1_692091258_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "692091258"
+      schedule_relationship: SCHEDULED
+      route_id: "102576"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452690
+      }
+      departure {
+        time: 1751452690
+      }
+      stop_id: "18440"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452759
+      }
+      departure {
+        time: 1751452759
+      }
+      stop_id: "26690"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452839
+      }
+      departure {
+        time: 1751452839
+      }
+      stop_id: "26715"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452920
+      }
+      departure {
+        time: 1751452920
+      }
+      stop_id: "26730"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453100
+      }
+      departure {
+        time: 1751453100
+      }
+      stop_id: "10325"
+    }
+    vehicle {
+      id: "6265"
+    }
+    timestamp: 1751452912
+    delay: 0
+  }
+}
+entity {
+  id: "1_650118878_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "650118878"
+      schedule_relationship: SCHEDULED
+      route_id: "100447"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452760
+      }
+      departure {
+        time: 1751452760
+      }
+      stop_id: "10916"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452796
+      }
+      departure {
+        time: 1751452796
+      }
+      stop_id: "10920"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452874
+      }
+      departure {
+        time: 1751452874
+      }
+      stop_id: "10940"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452897
+      }
+      departure {
+        time: 1751452897
+      }
+      stop_id: "10950"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452954
+      }
+      departure {
+        time: 1751452954
+      }
+      stop_id: "10970"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453023
+      }
+      departure {
+        time: 1751453023
+      }
+      stop_id: "10990"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453069
+      }
+      departure {
+        time: 1751453069
+      }
+      stop_id: "11010"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453120
+      }
+      departure {
+        time: 1751453120
+      }
+      stop_id: "11030"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453189
+      }
+      departure {
+        time: 1751453189
+      }
+      stop_id: "11040"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453248
+      }
+      departure {
+        time: 1751453248
+      }
+      stop_id: "11050"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453313
+      }
+      departure {
+        time: 1751453313
+      }
+      stop_id: "11060"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453379
+      }
+      departure {
+        time: 1751453379
+      }
+      stop_id: "11070"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453420
+      }
+      departure {
+        time: 1751453420
+      }
+      stop_id: "11080"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453494
+      }
+      departure {
+        time: 1751453494
+      }
+      stop_id: "11090"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453537
+      }
+      departure {
+        time: 1751453537
+      }
+      stop_id: "11100"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453660
+      }
+      departure {
+        time: 1751453660
+      }
+      stop_id: "1085"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453780
+      }
+      departure {
+        time: 1751453780
+      }
+      stop_id: "1110"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454020
+      }
+      departure {
+        time: 1751454020
+      }
+      stop_id: "450"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454159
+      }
+      departure {
+        time: 1751454159
+      }
+      stop_id: "480"
+    }
+    stop_time_update {
+      stop_id: "500"
+    }
+    stop_time_update {
+      stop_id: "515"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454440
+      }
+      departure {
+        time: 1751454440
+      }
+      stop_id: "1471"
+    }
+    vehicle {
+      id: "7117"
+    }
+    timestamp: 1751452906
+    delay: 200
+  }
+}
+entity {
+  id: "1_724577028_1751452982359"
+  trip_update {
+    trip {
+      trip_id: "724577028"
+      schedule_relationship: SCHEDULED
+      route_id: "100264"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452707
+      }
+      departure {
+        time: 1751452707
+      }
+      stop_id: "558"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452803
+      }
+      departure {
+        time: 1751452803
+      }
+      stop_id: "575"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751452983
+      }
+      departure {
+        time: 1751452983
+      }
+      stop_id: "880"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453114
+      }
+      departure {
+        time: 1751453114
+      }
+      stop_id: "900"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453223
+      }
+      departure {
+        time: 1751453223
+      }
+      stop_id: "10280"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453279
+      }
+      departure {
+        time: 1751453279
+      }
+      stop_id: "10305"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453355
+      }
+      departure {
+        time: 1751453355
+      }
+      stop_id: "10325"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453405
+      }
+      departure {
+        time: 1751453405
+      }
+      stop_id: "10340"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453429
+      }
+      departure {
+        time: 1751453429
+      }
+      stop_id: "10350"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453547
+      }
+      departure {
+        time: 1751453547
+      }
+      stop_id: "9480"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453649
+      }
+      departure {
+        time: 1751453649
+      }
+      stop_id: "9510"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453767
+      }
+      departure {
+        time: 1751453767
+      }
+      stop_id: "9550"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751453943
+      }
+      departure {
+        time: 1751453943
+      }
+      stop_id: "9580"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454162
+      }
+      departure {
+        time: 1751454162
+      }
+      stop_id: "11352"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751454303
+      }
+      departure {
+        time: 1751454303
+      }
+      stop_id: "9587"
+    }
+    vehicle {
+      id: "8232"
+    }
+    timestamp: 1751452906
+    delay: 183
+  }
+}

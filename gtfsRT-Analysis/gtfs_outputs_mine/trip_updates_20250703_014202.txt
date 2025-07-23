@@ -1,0 +1,75 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1751672640
+}
+entity {
+  id: "trip_update_001"
+  trip_update {
+    trip {
+      trip_id: "trip_001"
+      schedule_relationship: SCHEDULED
+      route_id: "route_A"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751671700
+      }
+      stop_id: "stop_001"
+      schedule_relationship: SCHEDULED
+    }
+    vehicle {
+      id: "vehicle_123"
+      label: "Bus 123"
+    }
+    delay: 300
+  }
+}
+entity {
+  id: "trip_update_003"
+  trip_update {
+    trip {
+      trip_id: "trip_003"
+      route_id: "route_B"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751671700
+      }
+      stop_id: "stop_002"
+      schedule_relationship: SCHEDULED
+    }
+    delay: 300
+  }
+}
+entity {
+  id: "1_765895068_01"
+  trip_update {
+    trip {
+      trip_id: "765895068"
+      route_id: "102646"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751672580
+      }
+      stop_id: "64592"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751673300
+      }
+      stop_id: "64476"
+    }
+    stop_time_update {
+      arrival {
+        time: 1751673900
+      }
+      stop_id: "64592"
+    }
+    vehicle {
+      id: "23"
+      label: "My trip vehicle"
+    }
+    delay: 30
+  }
+}

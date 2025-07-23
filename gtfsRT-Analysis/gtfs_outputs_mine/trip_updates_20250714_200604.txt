@@ -1,0 +1,45 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1746276577
+}
+entity {
+  id: "100210_713420528_1746276577"
+  trip_update {
+    trip {
+      trip_id: "724948068"
+      route_id: "100254"
+    }
+    stop_time_update {
+      arrival {
+        time: 1746277060
+      }
+      departure {
+        time: 1746277060
+      }
+      stop_id: "26080"
+    }
+    stop_time_update {
+      arrival {
+        time: 1746277160
+      }
+      departure {
+        time: 1746277160
+      }
+      stop_id: "26100"
+    }
+    stop_time_update {
+      arrival {
+        time: 1746277260
+      }
+      departure {
+        time: 1746277260
+      }
+      stop_id: "10870"
+    }
+    vehicle {
+      id: "100210713420528"
+    }
+    timestamp: 1746276577
+    delay: 249
+  }
+}

@@ -1,0 +1,31 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1746276577
+}
+entity {
+  id: "alert_100447_650252678_1746276577"
+  alert {
+    active_period {
+      start: 1746276577
+      end: 1746283777
+    }
+    informed_entity {
+      route_id: "100447"
+    }
+    cause: OTHER_CAUSE
+    effect: SIGNIFICANT_DELAYS
+    header_text {
+      translation {
+        text: "Service Running Late"
+        language: "en"
+      }
+    }
+    description_text {
+      translation {
+        text: "Route 100447 is running approximately 6 minutes late."
+        language: "en"
+      }
+    }
+    severity_level: WARNING
+  }
+}

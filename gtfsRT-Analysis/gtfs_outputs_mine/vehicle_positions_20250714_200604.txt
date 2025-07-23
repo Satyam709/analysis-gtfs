@@ -1,0 +1,21 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1746276577
+}
+entity {
+  id: "0"
+  vehicle {
+    trip {
+      trip_id: "724948068"
+      route_id: "100254"
+    }
+    position {
+      latitude: 47.5398788
+      longitude: -122.29747
+    }
+    timestamp: 1746276577
+    vehicle {
+      id: "100210713420528"
+    }
+  }
+}

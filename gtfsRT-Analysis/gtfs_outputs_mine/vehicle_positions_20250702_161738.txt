@@ -1,0 +1,30 @@
+header {
+  gtfs_realtime_version: "2.0"
+  incrementality: FULL_DATASET
+  timestamp: 1751452943
+}
+entity {
+  id: "vehicle_pos_001"
+  vehicle {
+    trip {
+      trip_id: "trip_001"
+      route_id: "route_A"
+    }
+    position {
+      latitude: 37.7749
+      longitude: -122.419403
+      bearing: 45
+      speed: 15.5
+    }
+    current_stop_sequence: 1
+    current_status: IN_TRANSIT_TO
+    timestamp: 1751452943
+    congestion_level: STOP_AND_GO
+    stop_id: "stop_001"
+    vehicle {
+      id: "vehicle_123"
+      label: "Bus 123"
+    }
+    occupancy_status: FEW_SEATS_AVAILABLE
+  }
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unix Timestamp & Timezone Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .converter-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #e9ecef;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+            background: #667eea;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #495057;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .datetime-input {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: end;
+        }
+
+        .convert-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .convert-btn:hover {
+            background: #5a6fd8;
+        }
+
+        .result {
+            background: #e3f2fd;
+            border: 1px solid #90caf9;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            color: #1565c0;
+            word-break: break-all;
+        }
+
+        .current-time {
+            text-align: center;
+            padding: 20px;
+            background: #fff3e0;
+            border-radius: 15px;
+            border: 1px solid #ffcc02;
+        }
+
+        .current-time h3 {
+            color: #ef6c00;
+            margin-bottom: 10px;
+        }
+
+        .current-unix {
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: bold;
+            color: #e65100;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .converter-section {
+                padding: 20px;
+            }
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Unix Timestamp & Timezone Converter</h1>
+        
+        <div class="current-time">
+            <h3>Current Unix Timestamp (Milliseconds)</h3>
+            <div class="current-unix" id="currentUnix">Loading...</div>
+        </div>
+
+        <div class="converter-section">
+            <h2 class="section-title">
+                <span class="icon">→</span>
+                Unix Timestamp to Date/Time
+            </h2>
+            
+            <div class="input-group">
+                <label for="unixInput">Unix Timestamp (milliseconds)</label>
+                <input type="number" id="unixInput" placeholder="e.g., 1677123456000">
+            </div>
+            
+            <div class="input-group">
+                <label for="timezoneOutput">Timezone</label>
+                <select id="timezoneOutput">
+                    <option value="UTC">UTC</option>
+                    <option value="America/New_York">Eastern Time (New York)</option>
+                    <option value="America/Chicago">Central Time (Chicago)</option>
+                    <option value="America/Denver">Mountain Time (Denver)</option>
+                    <option value="America/Los_Angeles" selected>Pacific Time (Los Angeles)</option>
+                    <option value="Europe/London">London</option>
+                    <option value="Europe/Paris">Paris</option>
+                    <option value="Europe/Berlin">Berlin</option>
+                    <option value="Asia/Tokyo">Tokyo</option>
+                    <option value="Asia/Shanghai">Shanghai</option>
+                    <option value="Asia/Kolkata">India</option>
+                    <option value="Australia/Sydney">Sydney</option>
+                </select>
+            </div>
+            
+            <button class="convert-btn" onclick="convertFromUnix()">Convert to Date/Time</button>
+            
+            <div id="unixResult" class="result" style="display: none;"></div>
+        </div>
+
+        <div class="converter-section">
+            <h2 class="section-title">
+                <span class="icon">←</span>
+                Date/Time to Unix Timestamp
+            </h2>
+            
+            <div class="input-group">
+                <label for="datetimeInput">Date and Time</label>
+                <div class="datetime-input">
+                    <input type="datetime-local" id="datetimeInput">
+                    <button class="convert-btn" onclick="setCurrentDateTime()">Now</button>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="timezoneInput">Timezone</label>
+                <select id="timezoneInput">
+                    <option value="UTC">UTC</option>
+                    <option value="America/New_York">Eastern Time (New York)</option>
+                    <option value="America/Chicago">Central Time (Chicago)</option>
+                    <option value="America/Denver">Mountain Time (Denver)</option>
+                    <option value="America/Los_Angeles" selected>Pacific Time (Los Angeles)</option>
+                    <option value="Europe/London">London</option>
+                    <option value="Europe/Paris">Paris</option>
+                    <option value="Europe/Berlin">Berlin</option>
+                    <option value="Asia/Tokyo">Tokyo</option>
+                    <option value="Asia/Shanghai">Shanghai</option>
+                    <option value="Asia/Kolkata">India</option>
+                    <option value="Australia/Sydney">Sydney</option>
+                </select>
+            </div>
+            
+            <button class="convert-btn" onclick="convertToUnix()">Convert to Unix Timestamp</button>
+            
+            <div id="datetimeResult" class="result" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script>
+        // Update current unix timestamp every second
+        function updateCurrentUnix() {
+            const now = Date.now(); // Get current timestamp in milliseconds
+            document.getElementById('currentUnix').textContent = now;
+        }
+
+        // Set current date/time in the datetime input
+        function setCurrentDateTime() {
+            const now = new Date();
+            const localDateTime = new Date(now.getTime() - now.getTimezoneOffset() * 60000)
+                .toISOString()
+                .slice(0, 16);
+            document.getElementById('datetimeInput').value = localDateTime;
+        }
+
+        // Convert Unix timestamp to date/time in specified timezone
+        function convertFromUnix() {
+            let unixTimestamp = parseInt(document.getElementById('unixInput').value);
+            const timezone = document.getElementById('timezoneOutput').value;
+            const resultDiv = document.getElementById('unixResult');
+            
+            if (isNaN(unixTimestamp)) {
+                resultDiv.style.display = 'block';
+                resultDiv.textContent = 'Please enter a valid Unix timestamp';
+                return;
+            }
+            
+            try {
+                // Always treat input as milliseconds
+                const date = new Date(unixTimestamp);
+                
+                // Standard 24hr format
+                const options24hr = {
+                    timeZone: timezone,
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false,
+                    timeZoneName: 'short'
+                };
+                const formatted24hr = new Intl.DateTimeFormat('en-US', options24hr).format(date);
+                
+                // Custom format: "7 May 2025 Wednesday 22:30"
+                const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
+                                   'July', 'August', 'September', 'October', 'November', 'December'];
+                
+                // Get date components in the target timezone
+                const yearInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, year: 'numeric'}).format(date);
+                const monthInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, month: 'numeric'}).format(date);
+                const dayInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, day: 'numeric'}).format(date);
+                const weekdayInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, weekday: 'long'}).format(date);
+                const hourInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, hour: '2-digit', hour12: false}).format(date);
+                const minuteInTz = new Intl.DateTimeFormat('en', {timeZone: timezone, minute: '2-digit'}).format(date);
+                
+                const customFormat = `${dayInTz} ${monthNames[parseInt(monthInTz) - 1]} ${yearInTz} ${weekdayInTz} ${hourInTz}:${minuteInTz}`;
+                const iso = date.toISOString();
+                
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = `
+                    <strong>Custom Format:</strong> ${customFormat}<br>
+                    <strong>Standard 24hr:</strong> ${formatted24hr}<br>
+                    <strong>ISO 8601 (UTC):</strong> ${iso}<br>
+                    <strong>Timezone:</strong> ${timezone}
+                `;
+            } catch (error) {
+                resultDiv.style.display = 'block';
+                resultDiv.textContent = 'Error: Invalid timezone or timestamp';
+            }
+        }
+
+        // Convert date/time in specified timezone to Unix timestamp
+        function convertToUnix() {
+            const datetimeValue = document.getElementById('datetimeInput').value;
+            const timezone = document.getElementById('timezoneInput').value;
+            const resultDiv = document.getElementById('datetimeResult');
+            
+            if (!datetimeValue) {
+                resultDiv.style.display = 'block';
+                resultDiv.textContent = 'Please select a date and time';
+                return;
+            }
+            
+            try {
+                // Parse input datetime and set the timezone
+                const m = moment.tz(datetimeValue, timezone);
+                
+                // Get Unix timestamp in milliseconds
+                const unixTimestampMs = m.valueOf();
+                
+                // Format the result date in the target timezone for display
+                const formattedDisplay = m.format('MM/DD/YYYY HH:mm z');
+                
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = `
+                    <strong>Unix Timestamp (ms):</strong> ${unixTimestampMs}<br>
+                    <strong>Input interpreted as:</strong> ${formattedDisplay}<br>
+                    <strong>UTC:</strong> ${m.toISOString()}
+                `;
+            } catch (error) {
+                resultDiv.style.display = 'block';
+                resultDiv.textContent = 'Error: Invalid date/time or timezone';
+                console.error('Conversion error:', error);
+            }
+        }
+
+        // Initialize
+        updateCurrentUnix();
+        setInterval(updateCurrentUnix, 1000);
+        
+        // Set default current time
+        setCurrentDateTime();
+        
+        // Add enter key support
+        document.getElementById('unixInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') convertFromUnix();
+        });
+        
+        document.getElementById('datetimeInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') convertToUnix();
+        });
+    </script>
+</body>
+</html>

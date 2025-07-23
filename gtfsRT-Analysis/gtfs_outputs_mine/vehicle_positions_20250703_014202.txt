@@ -1,0 +1,41 @@
+header {
+  gtfs_realtime_version: "2.0"
+  timestamp: 1751672640
+}
+entity {
+  id: "49"
+  vehicle {
+    trip {
+      trip_id: "765895068"
+      route_id: "102646"
+    }
+    position {
+      latitude: 47.5424042
+      longitude: -122.062263
+      bearing: 45
+      speed: 15.5
+    }
+    timestamp: 1751672600
+    vehicle {
+      id: "23"
+      label: "My trip vehicle"
+    }
+  }
+}
+entity {
+  id: "vehicle_pos_001"
+  vehicle {
+    trip {
+      trip_id: "trip_001"
+      route_id: "route_A"
+    }
+    current_status: IN_TRANSIT_TO
+    timestamp: 1751672700
+    congestion_level: STOP_AND_GO
+    vehicle {
+      id: "vehicle_123"
+      label: "Bus 123"
+    }
+    occupancy_status: FEW_SEATS_AVAILABLE
+  }
+}

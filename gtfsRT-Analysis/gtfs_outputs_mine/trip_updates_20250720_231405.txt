@@ -1,0 +1,15 @@
+header {
+  gtfs_realtime_version: "1.0"
+  timestamp: 1746290400
+}
+entity {
+  id: "1_686404418"
+  trip_update {
+    trip {
+      trip_id: "686404418"
+      schedule_relationship: CANCELED
+      route_id: "100254"
+    }
+    timestamp: 1746290400
+  }
+}
